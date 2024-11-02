@@ -50,7 +50,7 @@ function solveSecret(filename) {
 }
 
 // Process the test cases and display results
-const inputFiles = ['input1.json', 'input2.json'];
+const inputFiles = ['testcase1.json', 'testcase2.json'];
 
 inputFiles.forEach((file, idx) => {
     const result = solveSecret(file);
